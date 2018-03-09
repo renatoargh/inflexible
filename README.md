@@ -1,6 +1,6 @@
 # inflexible
 
-Private properties and immutability or JavaScript objects 
+Private properties and immutability for JavaScript objects 
 
 ### Installation
 
@@ -34,9 +34,7 @@ class Person extends Inflexible {
   }
 
   withName (name) {
-    return clone({
-      [hidden.name]: name
-    })
+    return clone({ [hidden.name]: name })
   }
 
   get age () {
@@ -44,12 +42,9 @@ class Person extends Inflexible {
   }
 
   withAge (age) {
-    return clone({
-      [hidden.age]: age
-    })
+    return clone({ [hidden.age]: age })
   }
 }
-
 ```
 
 ### License
