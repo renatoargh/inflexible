@@ -1,0 +1,19 @@
+{
+  "name": "inflexible",
+  "version": "1.0.0",
+  "description": "Private properties and immutability for JavaScript objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatogama/inflexible.git"
+  },
+  "author": "Renato Gama <renato@renatogama.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renatogama/inflexible/issues"
+  },
+  "homepage": "https://github.com/renatogama/inflexible#readme"
+}
