@@ -23,7 +23,7 @@ class Person extends Inflexible {
   }
 
   static build (name, age) {
-    return new Schema({
+    return new Person({
       [hidden.name]: name,
       [hidden.age]: age
     })
@@ -34,7 +34,7 @@ class Person extends Inflexible {
   }
 
   withName (name) {
-    return clone({ [hidden.name]: name })
+    return this.clone({ [hidden.name]: name })
   }
 
   get age () {
@@ -42,7 +42,7 @@ class Person extends Inflexible {
   }
 
   withAge (age) {
-    return clone({ [hidden.age]: age })
+    return this.clone({ [hidden.age]: age })
   }
 }
 ```
